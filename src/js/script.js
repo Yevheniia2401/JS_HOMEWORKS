@@ -30,13 +30,13 @@ for (const cycle in movie) {
     console.log (cycle + movie [cycle]);
 }
 
-let person1 = {
+const person1 = {
     name: 'Bob',
     age: 30,
     gender: 'male',
 };
 
-let person2 = {
+const person2 = {
     name: 'Bob',
     age: 30,
     gender: 'male'
