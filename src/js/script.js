@@ -42,8 +42,8 @@ const person2 = {
     gender: 'male'
 };
 
-console.log(person1.key === person2.key);
-console.log(person1.value === person2.value);
+console.log(JSON.stringify(person1) === JSON.stringify(person2))
+
 
 const animals = [
     {type: 'cat', name: 'Simba'},
