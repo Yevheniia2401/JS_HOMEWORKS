@@ -3,9 +3,9 @@
 const year = Number(prompt('Твій рік народження'))
 const city = prompt('В якому місті живеш')
 const sport = prompt('Твій улюблений вид спорту')
-let yearAns;
-let cityAns;
-let sportAns;
+let yearAns = null;
+let cityAns = null;
+let sportAns = null;
 
 switch (year) {
     case 0:
