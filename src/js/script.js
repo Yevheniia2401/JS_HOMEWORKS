@@ -8,8 +8,9 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(sum)
 
+let sumOfSquares = 0;
 for (let i = 0; i < arr.length; i++) {
-    sum+= Math.pow(arr[i],2)
+    sumOfSquares+= Math.pow(arr[i],2)
 }
-console.log(sum)
+console.log(sumOfSquares)
 
