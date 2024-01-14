@@ -1,0 +1,66 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"3179d403-bbbb-448c-811f-2eef68be5043\" name=\"Changes\" comment=\"change README.md\">\r\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/js/script.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/js/script.js\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2a31hWgx6O65QnKVu5qo8DWTO2H\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"3179d403-bbbb-448c-811f-2eef68be5043\" name=\"Changes\" comment=\"change script.js\" />\r\n      <created>1703532568934</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1703532568934</updated>\r\n      <workItem from=\"1703532571500\" duration=\"1784000\" />\r\n      <workItem from=\"1703594889444\" duration=\"7545000\" />\r\n      <workItem from=\"1703606731284\" duration=\"91000\" />\r\n      <workItem from=\"1703874907641\" duration=\"1020000\" />\r\n      <workItem from=\"1704208205125\" duration=\"1565000\" />\r\n      <workItem from=\"1704209838748\" duration=\"1749000\" />\r\n      <workItem from=\"1704545429298\" duration=\"5390000\" />\r\n      <workItem from=\"1704552852657\" duration=\"4234000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"completed homework\">\r\n      <created>1703533793810</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1703533793810</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"completed homework\">\r\n      <created>1703606641723</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1703606641723</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"change homework\">\r\n      <created>1703606813226</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1703606813226</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"change homework\">\r\n      <created>1703876037824</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1703876037824</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"completed homework\">\r\n      <created>1704208688780</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704208688780</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"completed homework\">\r\n      <created>1704209775205</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704209775205</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"completed homework\">\r\n      <created>1704209882838</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704209882838</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"change main\">\r\n      <created>1704209972460</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704209972460</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"completed homework\">\r\n      <created>1704210425369</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704210425369</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"completed homework\">\r\n      <created>1704210874922</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704210874922</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"completed homework\">\r\n      <created>1704210909638</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704210909638</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"completed homework\">\r\n      <created>1704210994125</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704210994125</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"completed homework\">\r\n      <created>1704546163636</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704546163636</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"completed homework\">\r\n      <created>1704546904159</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704546904159</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"completed homework\">\r\n      <created>1704552780724</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704552780724</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"change README.md\">\r\n      <created>1704552983996</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704552983996</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"17\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"change homework\" />\r\n    <MESSAGE value=\"change main\" />\r\n    <MESSAGE value=\"completed homework\" />\r\n    <MESSAGE value=\"change README.md\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"change README.md\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,8 +5,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="3179d403-bbbb-448c-811f-2eef68be5043" name="Changes" comment="change README.md">
+-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -16,7 +15,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="main" />
++        <entry key="$PROJECT_DIR$" value="hw_19" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -58,6 +57,7 @@
+       <workItem from="1704209838748" duration="1749000" />
+       <workItem from="1704545429298" duration="5390000" />
+       <workItem from="1704552852657" duration="4234000" />
++      <workItem from="1704632245116" duration="411000" />
+     </task>
+     <task id="LOCAL-00001" summary="completed homework">
+       <created>1703533793810</created>
+@@ -171,7 +171,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1704552983996</updated>
+     </task>
+-    <option name="localTasksCounter" value="17" />
++    <task id="LOCAL-00017" summary="change script.js">
++      <created>1704632489079</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
++      <option name="project" value="LOCAL" />
++      <updated>1704632489079</updated>
++    </task>
++    <task id="LOCAL-00018" summary="change README.md">
++      <created>1704632614455</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
++      <option name="project" value="LOCAL" />
++      <updated>1704632614455</updated>
++    </task>
++    <option name="localTasksCounter" value="19" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -181,6 +195,7 @@
+     <MESSAGE value="change homework" />
+     <MESSAGE value="change main" />
+     <MESSAGE value="completed homework" />
++    <MESSAGE value="change script.js" />
+     <MESSAGE value="change README.md" />
+     <option name="LAST_COMMIT_MESSAGE" value="change README.md" />
+   </component>

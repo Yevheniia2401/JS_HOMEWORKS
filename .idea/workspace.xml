@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3179d403-bbbb-448c-811f-2eef68be5043" name="Changes" comment="completed homework">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hw_27" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ad0g7aplR4nqaADaSj9I2jGjk0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3179d403-bbbb-448c-811f-2eef68be5043" name="Changes" comment="change README.md" />
+      <created>1704633259452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704633259452</updated>
+      <workItem from="1704633261001" duration="2876000" />
+      <workItem from="1704636497976" duration="352000" />
+      <workItem from="1704798623084" duration="7256000" />
+      <workItem from="1704817581949" duration="416000" />
+      <workItem from="1704829693607" duration="14000" />
+      <workItem from="1704984208465" duration="10532000" />
+      <workItem from="1705000144140" duration="350000" />
+      <workItem from="1705001988671" duration="1946000" />
+      <workItem from="1705062100032" duration="10768000" />
+      <workItem from="1705146820921" duration="13370000" />
+    </task>
+    <task id="LOCAL-00001" summary="completed homework">
+      <created>1704634569317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704634569317</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change script.js">
+      <created>1704799358805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704799358805</updated>
+    </task>
+    <task id="LOCAL-00003" summary="complete homework">
+      <created>1704801780399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704801780399</updated>
+    </task>
+    <task id="LOCAL-00004" summary="change README.md">
+      <created>1704801851199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704801851199</updated>
+    </task>
+    <task id="LOCAL-00005" summary="completed homework">
+      <created>1704806687516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704806687516</updated>
+    </task>
+    <task id="LOCAL-00006" summary="completed homework">
+      <created>1704997952323</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704997952323</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change homework">
+      <created>1705000456430</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705000456430</updated>
+    </task>
+    <task id="LOCAL-00008" summary="completed homework">
+      <created>1705096863027</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705096863027</updated>
+    </task>
+    <task id="LOCAL-00009" summary="completed homework">
+      <created>1705151694746</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705151694746</updated>
+    </task>
+    <task id="LOCAL-00010" summary="completed homework">
+      <created>1705152951160</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705152951160</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change script.js" />
+    <MESSAGE value="complete homework" />
+    <MESSAGE value="change README.md" />
+    <MESSAGE value="change homework" />
+    <MESSAGE value="completed homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed homework" />
+  </component>
+</project>

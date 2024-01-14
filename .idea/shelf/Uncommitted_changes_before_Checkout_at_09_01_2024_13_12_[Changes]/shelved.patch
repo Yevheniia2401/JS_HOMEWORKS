@@ -1,0 +1,44 @@
+Index: src/js/script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>'use strict' ;\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/js/script.js b/src/js/script.js
+--- a/src/js/script.js	(revision 6095d8da88c7ceab8c5ed879fe1b3f2e33ad3059)
++++ b/src/js/script.js	(date 1704636851395)
+@@ -1,2 +1,14 @@
+ 'use strict' ;
+ 
++const number = +prompt();
++if (number < 1) {
++    console.log(NaN)
++}
++
++for (let i = 2; i < number - 1; i++) {
++    if (number % i === 0) {
++        console.log(i); break
++    }else {
++        console.log('Просте число')
++    }
++}
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># **Homework description**\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 6095d8da88c7ceab8c5ed879fe1b3f2e33ad3059)
++++ b/README.md	(date 1704634997358)
+@@ -1,1 +1,7 @@
+ # **Homework description**
++
++1. Запитуємо у користувача число
++2. Потрібно знайти мінімальний дільник переданого числа.
++3. Для цього досить послідовно перевіряти подільність, починаючи з двійки. Якщо дільник не знайдений, то число просте, і дільником є саме число.
++
++ Якщо передане число менше одиниці, вивести в консоль NaN. інакше вивести найменший дільник числа
+\ No newline at end of file
