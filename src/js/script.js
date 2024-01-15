@@ -14,32 +14,24 @@ for (let i = 10; i <= 100; i+= 10) {
 //task 3//
 const number = +prompt();
 for (let i = 1; i <= 100; i++) {
-    if (Math.pow(i, 2) < number) {
-        console.log(i)
-    }
+    if (Math.pow(i, 2) < number) console.log(i)
 }
 
 //task 4//
 const userNumber = +prompt();
-let isPrime = true;
 for (let i = 2; i < userNumber; i++) {
     if (userNumber % i === 0) {
-        isPrime = false;
-        break;
-    }
-}
-if (userNumber && isPrime > 1) {
-    console.log('Просте число')
-}else
-    console.log('Непросте число')
-
+        console.log('Непросте число');break
+    }if (userNumber % i !== 0 && userNumber > 1) {
+        console.log('Просте число');
+    }}
 //task 5//
 const anyNumber = +prompt();
 for (let i = 0; i <= 10; i++) {
     if (anyNumber === 3 ** i) {
         console.log('Можна')
-    }else
+    } else {
         console.log('Не можна')
-}
+    }}
 
 
