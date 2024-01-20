@@ -1,23 +1,20 @@
 'use strict' ;
-function padString(str, length, symbol, positionRight = true) {
-    if (!str || typeof length !== 'number' || typeof symbol !== 'string' || typeof positionRight !== 'boolean') {
-        return 'помилка';
-    }
+function padString (string, length, symbol = '*', sideRight = true) {
 
-    if (str.length > length) {
-        str = str.substr(0, length)
-    }
+    if (typeof string !== 'string') throw new Error('Passed value is not a string');
+    if (typeof length !== 'number' ||  Number.isNaN(length)) throw new Error(`The transferred value is not a number`);
 
-    if (positionRight) {
-        while (str.length < length) {
-            str += symbol;
-        }
-    } else {
-        while (str.length < length) {
-            str = symbol + str;
-        }
-    }
-    return str;
+    if (string.length === length) return string;
+    if (string.length > length) return string.slice(0, length);
+
+    if (typeof symbol !== 'string' || symbol.length !== 1) throw new Error(`Symbol must contain only one element`);
+    if (typeof sideRight !== 'boolean') throw new Error(`The passed value is not a booleans data type`);
+
+
+    const symbols = symbol.repeat(length - string.length);
+    return sideRight ? string + symbols : symbols + string;
 }
-const result = padString('привіт', 8, '*',  false)
-console.log(result)
+
+console.log(padString('Hello',8))
+console.log(padString('Hello', 6, '*', false));
+console.log(padString('Hello', 2,'*'));
