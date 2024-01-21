@@ -5,22 +5,29 @@ const y = 7;
 x > y ? console.log('х більше за у') : console.log('х не більше, ніж у');
 
 //task 3//
-const userInput = prompt('Введіть ціле число');
-if (userInput !== null && userInput !== '') {
-    alert(`В цьому числі ${userInput.length} цифр`);
-}else alert('Ви не ввели число');
+let num = prompt("Введіть ціле число:");
+let length = num.length;
+let result = "";
 
-const userNumber = +userInput;
-if (!isNaN(userNumber)) {
-        if (userNumber > 0) {
-            alert(`Число ${userNumber} однозначно позитивне`);
-        } else if (userNumber < 0) {
-            alert(`Число ${userNumber} однозначно негативне`);
-        }
-}else {
-    alert('Ви ввели неправильне значення')
+switch (length) {
+    case 1:
+        result = "однозначне";
+        break;
+    case 2:
+        result = "двоцифрове";
+        break;
+    default:
+        result = "трицифрове або більше";
 }
 
+if (parseInt(num) > 0) {
+    result += " позитивне";
+} else if (parseInt(num) < 0) {
+    result += " негативне";
+} else {
+    result += " нуль";
+}
+console.log("Число " + num + " " + result);
 //task 4//
 const userFirstNumber = +prompt('Введіть перше число');
 const userSecondNumber = +prompt('Введіть друге число');
