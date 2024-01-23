@@ -7,6 +7,7 @@ const randomNumber = function () {
   }
   return randomNumber()
 }
+
 for (let i = 0; i <= 99; i += 1) {
   console.log(randomNumber())
 }
