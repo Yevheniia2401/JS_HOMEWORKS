@@ -1,16 +1,17 @@
-'use strict' ;
+function askAgeAndDisplay() {
+    let age = prompt("Будь ласка, введіть ваш вік:");
+    if (!age || isNaN(age)) {
+        alert("Будь ласка, введіть коректне числове значення.");
+        return;
+    }
 
-const userNumber = prompt('Enter your number');
-if (typeof userNumber !== "number" ) {
-    throw new Error(`The transferred value is not a number`);
-}else {
-    const number = +userNumber;
-    if (number % 10 === 1 && (number / 10) % 10 !== 1) {
-        console.log(number + ' рік')
+    age = parseInt(age, 10);
+    let ageWord = 'років';
+    if (age % 10 === 1 && age % 100 !== 11) {
+        ageWord = 'рік';
+    } else if (age % 10 >= 2 && age % 10 <= 4 && (age % 100 < 10 || age % 100 >= 20)) {
+        ageWord = 'роки';
     }
-    if ((number % 10 === 2 || number % 10 === 3 || number % 10 === 4) && ((number / 10) % 10 !== 1)) {
-        console.log(number + ' роки')
-    } else {
-        console.log(number + ' років')
-    }
+    alert(age + " " + ageWord);
 }
+askAgeAndDisplay();
