@@ -9,6 +9,6 @@
     },
     "rules": {
         "func-style": ["error", "expression"],
-        "no-console": "warn"
+        "no-console": "off"
     }
 }
