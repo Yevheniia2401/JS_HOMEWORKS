@@ -45,7 +45,6 @@ const conductAnInterview = function NewInter(candidate2, requirementOfCandidate)
 };
 const resultOfInterview = conductAnInterview(candidate2, requirementOfCandidate);
 console.log(resultOfInterview);
-
 // task 4//
 const ratingOfCandidates = function NewRat() {
   const numbers = [];
@@ -56,8 +55,7 @@ const ratingOfCandidates = function NewRat() {
 const rating = ratingOfCandidates();
 console.log(rating);
 const interviewPlanning = function NewPlan() {
-  const candidates = [candidate1, candidate2, candidate3];
-  return candidates;
+  return [candidate1, candidate2, candidate3];
 };
 const result = interviewPlanning();
 console.log(result);
