@@ -1,26 +1,24 @@
 // // task 1//
-const CreateCandidate = function (name, skills) {
+const CreateCandidate = function NewCand(name, skills) {
   return {
     nameOfCandidate: name,
-    skillsOfCandidate: skills
-  }
-}
-const candidate1 = new CreateCandidate('Anna', ['HTML', 'CSS', 'SCSS'])
-const candidate2 = new CreateCandidate('Mike', ['HTML', 'CSS', 'SCSS', 'Bootstrap', 'JS', 'React'])
-const candidate3 = new CreateCandidate('Bob', ['HTML', 'CSS', 'SCSS', 'Bootstrap'])
-console.log(candidate1, candidate2, candidate3)
-
+    skillsOfCandidate: skills,
+  };
+};
+const candidate1 = new CreateCandidate('Anna', ['HTML', 'CSS', 'SCSS']);
+const candidate2 = new CreateCandidate('Mike', ['HTML', 'CSS', 'SCSS', 'Bootstrap', 'JS', 'React']);
+const candidate3 = new CreateCandidate('Bob', ['HTML', 'CSS', 'SCSS', 'Bootstrap']);
+console.log(candidate1, candidate2, candidate3);
 // task 2//
-const AddRequirement = function () {
-  const requirementList = ['HTML', 'CSS', 'SCSS', 'Bootstrap', 'JS']
-  requirementList.push('React')
+const AddRequirement = function NewReq() {
+  const requirementList = ['HTML', 'CSS', 'SCSS', 'Bootstrap', 'JS'];
+  requirementList.push('React');
   return {
     requirement: requirementList,
-    length: requirementList.length
-  }
-}
-const requirementOfCandidate = AddRequirement()
-console.log(requirementOfCandidate)
+    length: requirementList.length,
+  };
+};
+const requirementOfCandidate = AddRequirement();
 
 // task 3//
 // const conductAnInterview = function (candidate2, requirementOfCandidate) {
@@ -37,28 +35,29 @@ console.log(requirementOfCandidate)
 //   } return true
 // }
 
-const conductAnInterview = function (candidate2, requirementOfCandidate) {
-  for (let i = 0; i < requirementOfCandidate.length; i++) {
+// eslint-disable-next-line no-shadow
+const conductAnInterview = function NewInter(candidate2, requirementOfCandidate) {
+  for (let i = 0; i < requirementOfCandidate.length; i + 1) {
     if (candidate2.skillsOfCandidate[i] !== requirementOfCandidate.requirement[i]) {
-      return false
+      return false;
     }
-  } return true
-}
-const resultOfInterview = conductAnInterview(candidate2, requirementOfCandidate)
-console.log(resultOfInterview)
+  } return true;
+};
+const resultOfInterview = conductAnInterview(candidate2, requirementOfCandidate);
+console.log(resultOfInterview);
 
 // task 4//
-const ratingOfCandidates = function () {
-  const numbers = []
-  for (let i = 0; i <= 100; i++) {
-    numbers.push(i)
-  } return numbers
-}
-const rating = ratingOfCandidates()
-console.log(rating)
-const interviewPlanning = function (requirementOfCandidate, ratingOfCandidates) {
-  const candidates = [candidate1, candidate2, candidate3]
-  return candidates
-}
-const result = interviewPlanning(requirementOfCandidate, ratingOfCandidates())
-console.log(result)
+const ratingOfCandidates = function NewRat() {
+  const numbers = [];
+  for (let i = 0; i <= 100; i + 1) {
+    numbers.push(i);
+  } return numbers;
+};
+const rating = ratingOfCandidates();
+console.log(rating);
+const interviewPlanning = function NewPlan() {
+  const candidates = [candidate1, candidate2, candidate3];
+  return candidates;
+};
+const result = interviewPlanning();
+console.log(result);
