@@ -3,11 +3,12 @@
         "browser": true,
         "es2021": true
     },
-    "extends": "standard",
+    "extends": "airbnb-base",
     "parserOptions": {
         "ecmaVersion": "latest"
     },
     "rules": {
-        "func-style": ["error", "expression"]
+        "func-style": ["error", "expression"],
+        "no-console": "warn"
     }
 }
