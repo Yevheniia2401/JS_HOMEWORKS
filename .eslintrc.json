@@ -9,6 +9,7 @@
     },
     "rules": {
         "func-style": ["error", "expression"],
+        "func-names": "off",
         "no-console": "off"
     }
 }
