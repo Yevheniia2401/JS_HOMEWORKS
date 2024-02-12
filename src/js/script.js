@@ -1,28 +1,26 @@
 // // task 1//
 
-const CreateCandidate = function (name, skills = []) {
-  return {
-    name,
-    skills,
-  };
-};
+const CreateCandidate = (name, skills = []) => ({
+  name,
+  skills,
+});
 
 const candidate1 = new CreateCandidate('Anna', ['HTML', 'CSS', 'SCSS']);
 const candidate2 = new CreateCandidate('Mike', ['HTML', 'CSS', 'SCSS', 'Bootstrap', 'JS', 'React']);
 const candidate3 = new CreateCandidate('Bob', ['HTML', 'CSS', 'SCSS', 'Bootstrap']);
 console.log(candidate1, candidate2, candidate3);
 // task 2//
-const AddRequirement = function () {
+const AddRequirement = () => {
   const requirementList = ['HTML', 'CSS', 'SCSS', 'Bootstrap', 'JS'];
   requirementList.push('React');
   return {
     requirementList,
   };
 };
-const requirementOfCandidate = AddRequirement();
+const requirementsOfCandidate = AddRequirement();
 
 // task 3//
-const conductAnInterview = function (candidate, requirement) {
+const conductAnInterview = (candidate, requirement) => {
   let result = 100;
 
   for (let r = 0; r < requirement.length; r += 1) {
@@ -40,12 +38,12 @@ const conductAnInterview = function (candidate, requirement) {
   return result;
 };
 
-const resultOfInterview = conductAnInterview(candidate1, requirementOfCandidate);
+const resultOfInterview = conductAnInterview(candidate1, requirementsOfCandidate);
 console.log(resultOfInterview);
 
 // task 4//
 
-const planInterviews = function (candidates, req, scoreFunc) {
+const planInterviews = (candidates, req, scoreFunc) => {
   const result = [];
   for (let i = 0; i < candidates.length; i += 1) {
     result.push({
@@ -56,4 +54,4 @@ const planInterviews = function (candidates, req, scoreFunc) {
   return result;
 };
 const candidates = [candidate1, candidate2, candidate3];
-console.log(planInterviews(candidates, requirementOfCandidate, conductAnInterview));
+console.log(planInterviews(candidates, requirementsOfCandidate, conductAnInterview));
