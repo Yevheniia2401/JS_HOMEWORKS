@@ -1,5 +1,5 @@
-const inLog = function (a, b) {
-  return console.log(this.name, a, b);
+const inLog = (obj, a, b) => {
+  console.log(obj, a, b);
 };
 
 const someObj = {
@@ -8,7 +8,7 @@ const someObj = {
 
 };
 const someArr = [40, 50];
-const myApply = function (thisArg, arrArg = []) {
-  return inLog(thisArg, arrArg);
+const myApply = (thisArg, arrArg = []) => {
+  inLog(thisArg, ...arrArg);
 };
 myApply(someObj, someArr);
