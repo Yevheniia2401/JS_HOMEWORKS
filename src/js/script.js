@@ -2,14 +2,20 @@ const someObj = {
   name: 'Vlad',
   age: 25,
 };
-const greet = function () {
-  return `${this.name} ${this.age}`;
+const printName = function (prefix) {
+  console.log(this, prefix);
+  console.log(`${prefix} ${this.name}`);
 };
-const myBind = function (func, context) {
-  const newFunc = function () {
-    return func.apply(context, arguments);
+
+const callWithCtx = function (func, ctx, args) {
+  ctx.func = func;
+  ctx.func(args, ...args);
+  delete ctx.func;
+};
+const myBind = function (func, ctx, args) {
+  return function () {
+    callWithCtx(func, ctx, args);
   };
-  return newFunc;
 };
-const result = myBind(greet, someObj);
-console.log(result());
+const result = myBind(printName, someObj, ['Mr']);
+result();
