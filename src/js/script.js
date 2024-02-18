@@ -1,14 +1,18 @@
-const inLog = (obj, a, b) => {
-  console.log(obj, a, b);
+const user = {
+  name: 'Mike',
+  age: 30,
+  hobby: 'box',
 };
-
-const someObj = {
-  name: 'Olha',
-  age: 36,
-
+const printName = function (prefix) {
+  console.log(this, prefix);
+  console.log(`${prefix} ${this.name}`);
 };
-const someArr = [40, 50];
-const myApply = (thisArg, arrArg = []) => {
-  inLog(thisArg, ...arrArg);
-};
-myApply(someObj, someArr);
+function callWithCtx(func, ctx, args) {
+  ctx.func = func;
+  ctx.func(args, ...args);
+  delete ctx.func;
+}
+function myApply(func, ctx, args) {
+  callWithCtx(func, ctx, args);
+}
+myApply(printName, user, ['Mr.']);
