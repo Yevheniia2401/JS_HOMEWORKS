@@ -12,10 +12,9 @@ console.log(arrStr('Mary'));
 
 // task 3 //
 const arrFunc = (arr) => {
-  const newArr = [];
-  for (let i = 0; i < arr.length; i += 1) {
-    newArr.push(arr[i] + 1);
-  } return newArr;
+  if (!Array.isArray(arr)) {
+    throw new Error('argument must be an array');
+  } else return arr.map((item) => item + 1);
 };
-const someArr = [3, 4, 5, 6, 7];
+const someArr = [2, 3, 4, 5, 6];
 console.log(arrFunc(someArr));
