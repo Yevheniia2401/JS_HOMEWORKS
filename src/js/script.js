@@ -3,7 +3,7 @@
   const userInput = document.body.querySelector('[data-input]');
   inputBtn.addEventListener('click', () => {
     const result = userInput.value;
-    if (isNaN(result)) {
+    if (isNaN(result) || result === '') {
       alert('Введіть число');
       return;
     }
